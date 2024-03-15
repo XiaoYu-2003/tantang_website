@@ -1,0 +1,372 @@
+/* CSS Document */
+*{
+	font-size: 15px;
+}
+
+/*导航栏*/
+header .logo{
+	margin: 4px 0 5px;
+}
+header .logo span{
+	font-weight: bold;
+}
+header .navbar{
+	padding: 0 171px;
+	background-color: #02328d;
+}
+header .navbar .nav-item{
+	padding: 4px 35px;
+}
+header .navbar .nav-link{
+	color: #fff;
+}
+header .navbar .active{
+	background-color: white;
+}
+header .navbar .active a{
+	color: #02328d;
+}
+
+#lunbo img{
+	max-height: 600px;
+	object-fit: cover;
+}
+
+
+.about{
+	padding: 70px 250px;
+	height: 550px;
+	background: url("../imgs/背景图1.png");
+	background-size: cover;
+	background-position: 0% 50%;
+}
+.about .topic .topic-nomal{
+	padding-bottom: 5px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.about .topic .topic-small{
+	font-size: 13px;
+	color: gray;
+}
+.about .content .left{
+	padding-right: 50px;
+}
+.about .content .left .nav-tabs{
+	padding-top: 40px;
+	border: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+	border: none;
+	border-bottom: 3px solid #02328d !important;
+	color: #02328d !important;
+}
+.about .content .left .nav-tabs .nav-link{
+	padding: 0;
+	margin-right: 20px;
+	height: 30px;
+	color: black;
+}
+.about .content .left .tab-content{
+	padding-top: 40px;
+}
+.about .content .left .tab-content h4{
+	font-weight: bold;
+}
+.about .content .left .tab-content p{
+	text-align: justify;
+}
+.about .content .left .more{
+	padding-top: 20px;
+	color: #02328d;
+	font-weight: bold;
+}
+
+
+/*品质保证*/
+#quality{
+	padding: 0;
+	margin: 0;
+	background-color: #02328d;
+	color: #fff;
+	overflow: hidden;
+}
+#quality .style{
+	border-right: 1px solid #fff;
+}
+#quality .item{
+	padding: 60px 42px 50px;
+}
+#quality .item .left-icon{
+	padding-left: 5px;
+	margin-top: -22px;
+}
+#quality .item .left-icon i{
+	font-size: 30px;
+}
+#quality .item .title{
+	font-size: 16px;
+	padding-bottom: 30px;
+}
+#quality .item .title .title-zhongwen{
+	float: left;
+	font-weight: bold;
+	border-bottom: 2px solid #fff;
+	font-size: 16px;
+	height: 30px;
+	margin-top: -15px;
+}
+#quality .item .title .title-yingwen{
+	line-height: 0px;
+	font-size: 13px;
+	padding-left: 41px;
+}
+#quality .item .right-content{
+	padding: 0;
+	margin: 0;
+	width: 80%;
+	text-align: justify;
+}
+#quality .item .right-content .content{
+	font-size: 14px;
+}
+
+
+/*产品展示*/
+#show{
+	padding: 70px 250px;
+	height: 740px;
+}
+#show .topic{
+	text-align: center;
+}
+#show .topic .topic-nomal{
+	padding-bottom: 5px;
+	font-size: 30px;
+	font-weight: bold;
+}
+#show .topic .topic-small{
+	font-size: 13px;
+	color: gray;
+}
+#show .content{
+	padding-top: 40px;
+}
+#show .content .thumbnail{
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#show .content .thumbnail img{
+	width: 100%;
+	height: 260px;
+	object-fit: contain;
+}
+#show .content .thumbnail .caption{
+	padding: 20px;
+	text-align: center;
+}
+#show .content .thumbnail .caption h4{
+	font-size: 20px;
+}
+#show .content .thumbnail .caption p{
+	color: gray;
+	font-size: 18px;
+}
+#show .content .thumbnail .caption .fenge{
+	margin: 15px auto;
+	width: 70%;
+	height: 3px;
+	background-color: gainsboro;
+	border-radius: 20px;
+	text-align: center;
+}
+#show .content .thumbnail .caption .fenge .zhongjian{
+	margin: auto;
+	width: 30%;
+	height: 3px;
+	background-color: #02328d;
+	border-radius: 20px;
+	text-align: center;
+}
+
+
+/*贴心服务*/
+#service{
+	padding: 70px 200px;
+	height: 610px;
+	background: url("../imgs/背景图2.jpg");
+	background-size: cover;
+}
+#service .topic{
+	text-align: center;
+}
+#service .topic .topic-nomal{
+	padding-bottom: 5px;
+	font-size: 30px;
+	font-weight: bold;
+}
+#service .topic .topic-small{
+	font-size: 13px;
+	color: gray;
+}
+#service .content{
+	padding-top: 40px;
+	text-align: center;
+}
+#service .content .item{
+	padding: 50px 50px;
+	height: 350px;
+}
+#service .content .item:hover{
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#service .content .active{
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#service .content .item-icon i{
+	font-size: 80px;
+	color: #02328d;
+}
+#service .content .item-title{
+	padding: 10px 0;
+}
+
+
+
+/*新闻中心*/
+#news{
+	padding: 70px 250px;
+	height: 640px;
+}
+#news .topic{
+	text-align: center;
+}
+#news .topic .topic-nomal{
+	padding-bottom: 5px;
+	font-size: 30px;
+	font-weight: bold;
+}
+#news .topic .topic-small{
+	font-size: 13px;
+	color: gray;
+}
+#news .content{
+	padding-top: 50px;
+}
+#news .content .left{
+	padding-right: 20px;
+}
+#news .content .thumbnail{
+	overflow: hidden;
+}
+#news .content .left .thumbnail img{
+	width: 100%;
+	height: 260px;
+	object-fit: cover;
+}
+#news .content .left .thumbnail .caption{
+	padding: 15px 0;
+}
+#news .content .thumbnail .caption h3{
+	font-size: 19px;
+	font-weight: bold;
+}
+#news .content .thumbnail .caption p{
+	color: gray;
+	font-size: 14px;
+}
+#news .content .right img{
+	margin-top: -3px;
+	padding-right: 0;
+	width: 170px;
+	height: 100px;
+	object-fit: cover;
+}
+#news .content  .right .thumbnail{
+	margin-bottom: 35px;
+}
+#news .content  .right .thumbnail .caption h3{
+	padding-top: 8px;
+}
+#news .content .right .thumbnail .time{
+	padding-top: 25px;
+	text-align: center;
+	color: gray !important;
+	font-weight: bold;
+}
+#news .content .right .thumbnail .time .date{
+	font-size: 12px;
+}
+#news .content .right .thumbnail .time .year{
+	font-size: 20px;
+}
+
+
+/*技术文章*/
+#article{
+	padding: 70px 200px;
+	height: 700px;
+/*	background-color: #E8E8E8;*/
+}
+#article .topic{
+	text-align: center;
+}
+#article .topic .topic-nomal{
+	padding-bottom: 5px;
+	font-size: 30px;
+	font-weight: bold;
+}
+#article .topic .topic-small{
+	font-size: 13px;
+	color: gray;
+}
+#article .content{
+	padding-top: 40px;
+}
+#article .content .left{
+	padding-right: 50px;
+}
+#article .content .left img{
+	width: 100%;
+	height: 432px;
+	object-fit: cover;
+}
+#article .content .right .item{
+	margin-bottom: 30px;
+	padding: 40px 50px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background-color: #fff;
+}
+#article .content .right .item p{
+	margin-bottom: 0;
+}
+#article .content .right .item .time .date{
+	font-size: 18px;
+}
+#article .content .right .item .time .year{
+	font-size: 13px;
+}
+
+
+footer{
+	height: 150px;
+	background-color: #323232;
+}
+footer .content{
+	padding: 30px;
+}
+footer .content p{
+	text-align: center;
+	color: #fff;
+}
+footer .content p span{
+	padding: 0 8px;
+}
+
+
+
+
+
+
+
